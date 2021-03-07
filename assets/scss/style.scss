@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.slides,
+.controls {
+  position: relative;
+}
+.indicators {
+  display: flex;
+}
+.indicators__item {
+  display: block;
+
+  width: 30px;
+  height: 25px;
+
+  border-radius: 4px;
+  background-color: greenyellow;
+}
+
